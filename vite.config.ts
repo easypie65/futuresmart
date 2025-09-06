@@ -1,12 +1,11 @@
 import path from "path";
 import { defineConfig, loadEnv } from "vite";
 
-// ✅ Vite 설정
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, ".", "");
 
   return {
-    // ✅ GitHub Pages 프로젝트 경로 (리포 이름 넣기)
+    // ✅ 반드시 리포 이름 넣기!
     base: "/futuresmart/",
 
     define: {
