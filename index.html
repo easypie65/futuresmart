@@ -1,24 +1,15 @@
-
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vibe Coding Workshop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Futuresmart</title>
+    <link rel="icon" href="data:," />
     <script src="https://cdn.tailwindcss.com"></script>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
-    "react": "https://aistudiocdn.com/react@^19.1.1"
-  }
-}
-</script>
-</head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  </head>
+  <body class="bg-slate-50">
     <div id="root"></div>
-    <script type="module" crossorigin src="/futuresmart/assets/index-XXXX.js"></script>
+    <!-- ✅ Vite 개발 모드에서는 TSX를, 빌드 후에는 자동으로 JS 번들 경로로 교체됨 -->
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
